@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="logistics_po" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="logistics_common" options="-parameters" />
+      <module name="logistics_dao" options="-parameters" />
+      <module name="logistics_po" options="-parameters" />
+      <module name="logistics_service" options="-parameters" />
+      <module name="logistics_web" options="-parameters" />
+    </option>
+  </component>
+</project>

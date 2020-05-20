@@ -1,0 +1,22 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: logistics_web
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://123.57.141.90:3306/logistics?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    hikari:
+      max-lifetime:30000
+    dbcp2:
+      max-wait-millis: 5
+      time-between-eviction-runs-millis: 5
+  #    url: jdbc:mysql://123.57.141.90:3306/logistics?characterEncoding=utf-8
+#    url: jdbc:mysql://127.0.0.1:3306/logistics?characterEncoding=utf-8
+
+  jpa:
+    database: mysql
+    show-sql: true
+
